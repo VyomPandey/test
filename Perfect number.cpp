@@ -15,16 +15,10 @@ int main()
 		}
 	}
 	for(int o=0;o<j;o++)
-	{
 		numcpy=numcpy+factor[o];
-	}
 	if(numcpy==num)
-	{
 		cout<<"\nNumber is perfect number.";
-	}
 	else
-	{
 		cout<<"\nNumber is not perfect number.";
-	}
 	return 0;
 }
